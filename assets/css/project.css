@@ -1,0 +1,125 @@
+#project{
+    position: relative;
+    padding-top: 0;
+    top: 0;
+    height: 100vh;
+    padding-bottom: 180vh;
+}
+#project_header{
+    position: absolute;
+    top: 8vh;
+    left: 2vw;
+}
+#tea_project>h2{
+    position: absolute;
+    top: 30vh;
+    left: 2vw;
+}
+#tea_project>div>p{
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+}
+#tea_project>div>a{
+    position: absolute;
+    top: 44vh;
+    left: 3vw;
+}
+#tea_lang{
+    position: absolute;
+    top: 55vh;
+    left: 10vw;
+}
+#tea_images>picture:first-child{
+    position: absolute;
+    top: 33vh;
+    right: 30vw;
+}
+#tea_images>picture:nth-child(2){
+    position: absolute;
+    top: 42vh;
+    right: 6vw;
+}
+#tea_images>picture:nth-child(3){
+    position: absolute;
+    top: 65vh;
+    right: 30vw;
+}
+#tea_images>picture:last-child{
+    position: absolute;
+    top: 76vh;
+    right: 6vw;
+}
+#zoo_project>h2{
+    position: absolute;
+    top: 105vh;
+    right: 2vw;
+}
+#zoo_project>div>p{
+    position: absolute;
+    right: 10vw;
+    top: 115vh;
+}
+#zoo_project>div>a{
+    position: absolute;
+    right: 3vw;
+    top: 118vh;
+}
+#zoo_lang{
+    position: absolute;
+    top: 130vh;
+    right: 10vw;
+}
+
+#zoo_images>picture:first-child{
+    position: absolute;
+    left: 27vw;
+    top: 110vh;
+}
+#zoo_images>picture:nth-child(2){
+    position: absolute;
+    left: 5vw;
+    top: 120vh;
+}
+#zoo_images>picture:nth-child(3){
+    position: absolute;
+    left: 27vw;
+    top: 140vh;
+}
+#zoo_images>picture:last-child{
+    position: absolute;
+    left: 5vw;
+    top: 150vh;
+}
+#connect4>h2{
+    position: absolute;
+    top: 180vh;
+    left: 2vw;
+}
+#connect4>div>p{
+    position: absolute;
+    left: 10vw;
+    top: 195vh;
+}
+#connect4>div>a{
+    position: absolute;
+    top: 197vh;
+    left: 3vw;
+}
+#connect4_lang{
+    position: absolute;
+    top: 209vh;
+    left: 10vw;
+}
+
+#connect4_images>picture:first-child{
+    position: absolute;
+    bottom: 60vh;
+    right: 30vw;
+}
+#connect4_images>picture:last-child{
+    position: absolute;
+    bottom: 45vh;
+    right: 8vw;
+
+}

@@ -1,0 +1,113 @@
+#youtube>h3{
+    position: absolute;
+    top: 5vh;
+    left: 2vw;
+}
+#youtube{
+    padding-top: 0;
+    position: relative;
+    background: #F3FFF1;
+    height: 100vh;
+    padding-bottom: 20vh;
+}
+.tangle_pattern{
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+}
+#kvArt{
+    position: absolute;
+    top: 30vh;
+    left: 18vw;
+    background: white;
+    border-radius: 15px;
+    width: 50vw;
+    height: 18vh;
+}
+#kvArt>picture{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    top: 30%;
+
+}
+#kvArt>h2{
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+#kvArt>p{
+    position: absolute;
+    top: 4vh;
+    left: 20%;
+}
+#kvArt>h5{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+#kvTech{
+    position: absolute;
+    top: 30vh;
+    left: 85vw;
+    background: white;
+    border-radius: 15px;
+    width: 50vw;
+    height: 18vh;
+}
+#kvTech>picture{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    top: 30%;
+
+}
+#kvTech>h2{
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+#kvTech>p{
+    position: absolute;
+    top: 4vh;
+    left: 20%;
+}
+#kvTech>h5{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+#whoIs{
+    position: absolute;
+    top: 65vh;
+    left: 32vw;
+    background: white;
+    border-radius: 15px;
+    width: 50vw;
+    height: 18vh;
+}
+#whoIs>picture{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    top: 30%;
+
+}
+#whoIs>h2{
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+#whoIs>p{
+    position: absolute;
+    top: 4vh;
+    left: 20%;
+}
+#whoIs>h5{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+#youtube>div>h5>a{
+    text-decoration: none;
+}

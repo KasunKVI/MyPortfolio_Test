@@ -1,0 +1,49 @@
+footer{
+    position: relative;
+    background: #305456;
+    top: 0;
+    height: 15vh;
+}
+#developer{
+    position: absolute;
+    left: 45vw;
+    top: 2vh;
+}
+#address{
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+}
+#address>img{
+    position: relative;
+    right: 2vw;
+    top: 3vh;
+}
+#contact_number{
+    position: absolute;
+    top: 4vh;
+    left: 18vw;
+}
+#contact_number>img{
+    position: relative;
+    right: 3vw;
+    top: 5vh;
+}
+#email_ft{
+    position: absolute;
+    left: 36vw;
+    top: 3vh;
+}
+#email_ft>img{
+    position: relative;
+    right: 3vw;
+    top: 5.5vh;
+}
+#socials_footer{
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+}
+div>h4{
+    margin: 0;
+}

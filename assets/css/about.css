@@ -1,0 +1,363 @@
+#about{
+    position: relative;
+    height: 100vh;
+    padding-bottom: 120vh;
+}
+#about_me_side_bar {
+    background: #B9BC26;
+}
+#about>h4{
+    font-family: 'Arya', sans-serif;
+    color: #6BD159;
+}
+#about>div>h1{
+    margin-top: 50px;
+    font-family: 'Alike', serif;
+    color: #302929;
+}
+#about>div>h1>span{
+    color: #A99E3A;
+}
+#about>div>h3{
+    font-family: 'Alike', serif;
+    color: #020202;
+}
+#about_explain{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: bold;
+}
+#my_second_image>img{
+    border-radius: 25px;
+}
+.side_pattern{
+    position: absolute;
+    top: 70vh;
+    left: 0;
+}
+
+@media all and (min-width: 1400px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+        font-size: 25px;
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 7vw;
+        z-index: 1;
+    }
+    #my_third_image{
+        z-index: 2;
+        padding-right: 1vw;
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 50vh;
+        left: 35vw;
+        z-index: 0;
+    }
+
+    #photo_with_socials{
+        position: absolute;
+        top: 105vh;
+        left: 33vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .socials>a{
+        display: block;
+        padding: 2vh;
+    }
+    #download_btn{
+        position: absolute;
+        top: 165vh;
+        left: 50vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 180vh;
+        left: 20vw;
+    }
+    #about_me_side_bar{
+        position: absolute;
+        width: 2vw;
+        height: 30vh;
+        top: 176vh;
+        left: 16vw;
+    }
+
+}
+@media all and (max-width: 1400px) and (min-width: 1024px){
+
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 7vw;
+        z-index: 1;
+    }
+    #my_third_image{
+        z-index: 2;
+        padding-right: 1vw;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 50vh;
+        left: 45vw;
+        z-index: 0;
+    }
+
+    #photo_with_socials{
+        position: absolute;
+        top: 105vh;
+        left: 38vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .socials>a{
+        display: block;
+        padding: 2vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 165vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 180vh;
+        left: 20vw;
+    }
+
+}
+@media all and (max-width: 1024px) and (min-width: 768px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 15vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+       display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 53vh;
+        left: 58vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 70vw;
+        top: 15vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 145vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 5vw;
+    }
+
+}
+@media all and (max-width: 768px) and (min-width: 425px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 65vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 60vh;
+        left: 43vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vw;
+        position: relative;
+        left: 82vw;
+        top: 28vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 125vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 140vh;
+        left: 5vw;
+    }
+
+}
+@media all and (max-width: 425px) and (min-width: 375px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 53vh;
+        left: 63vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 82vw;
+        top: 15vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 145vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 5vw;
+    }
+
+}
+
+@media all and (max-width: 375px) and (min-width: 320px){
+    #about>h4{
+        position: absolute;
+        top: 5vh;
+        left: 2vw;
+
+    }
+    #about_me{
+        position: absolute;
+        top: 8vh;
+        left: 2vw;
+    }
+    #my_second_image{
+        position: relative;
+        top: 60vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        position: absolute;
+        top: 53vh;
+        left: 63vw;
+        z-index: 0;
+    }
+
+    .socials>a{
+        display: block;
+        padding: 2vh;
+        position: relative;
+        left: 82vw;
+        top: 15vh;
+
+    }
+    #download_btn{
+        position: absolute;
+        top: 145vh;
+        left: 60vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 5vw;
+    }
+}

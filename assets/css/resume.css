@@ -1,0 +1,39 @@
+#resume{
+    padding-top: 0;
+    position: relative;
+    background: #F3FFF1;
+    height: 100vh;
+    padding-bottom: 100vh;
+
+}
+#resume>h3{
+    position: absolute;
+    top: 20vh;
+    left: 45vw;
+
+}
+#resume_edu{
+    position: absolute;
+    top: 45vh;
+    left: 43vw;
+}
+#degree{
+    position: absolute;
+    top: 35vh;
+    left: 25vw;
+}
+#diploma{
+    position: absolute;
+    top: 68vh;
+    left: 60vw;
+}
+#certificate{
+    position: absolute;
+    top: 108vh;
+    left: 25vw;
+}
+#a\/l{
+    position: absolute;
+    top: 145vh;
+    left: 60vw;
+}
