@@ -216,13 +216,14 @@
         background: none;
         color: #0f1923;
         cursor: pointer;
-        position: relative;
-        padding: 8px;
         margin-bottom: 20px;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 14px;
         transition: all .15s ease;
+        position: absolute;
+        top: 125vh;
+        left: 60vw;
     }
 
     #download_btn::before,
@@ -397,9 +398,7 @@
 
     }
     #download_btn{
-        position: absolute;
-        top: 125vh;
-        left: 60vw;
+
 
     }
     #about_explain{
