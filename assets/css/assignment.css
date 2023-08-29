@@ -313,7 +313,7 @@
 }
 .product-1 {
     --product-color: #EB6CA4;
-    --background-image: url("/assets/images/assignment/ezgif.com-video-to-gif.gif");
+    --background-image: url("../assets/images/assignment/ezgif.com-video-to-gif.gif");
     background-position: top;
     background-size: cover;
 }
