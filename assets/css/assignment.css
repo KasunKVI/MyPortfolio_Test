@@ -313,7 +313,7 @@
 }
 .product-1 {
     --product-color: #EB6CA4;
-    --background-image: url('../assets/images/assignment/assignment_03_case_02.gif');
+    --background-image: url('/assets/images/assignment/assignment_03_case_02.gif');
     background-position: top;
     background-size: cover;
 }
