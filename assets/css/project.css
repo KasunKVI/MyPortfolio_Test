@@ -13,7 +13,13 @@
 #tea_project>h2{
     position: absolute;
     top: 30vh;
-    left: 2vw;
+    left: 0;
+    background: #B4E5AC;
+    width: 20vw;
+    text-align: center;
+    height: 4vh;
+    padding-top: 1vh;
+    border-radius: 0 10px 10px 0 ;
 }
 #tea_project>div>p{
     position: absolute;
@@ -28,7 +34,14 @@
 #tea_lang{
     position: absolute;
     top: 55vh;
-    left: 10vw;
+    left: 8vw;
+    display: flex;
+}
+#tea_lang>h6{
+    margin-left: 2vw;
+    background: #26AABC;
+    padding: 6%;
+    border-radius: 15px;
 }
 #tea_images>picture:first-child{
     position: absolute;
@@ -53,12 +66,19 @@
 #zoo_project>h2{
     position: absolute;
     top: 105vh;
-    right: 2vw;
+    right: 0;
+    background: #B4E5AC;
+    width: 20vw;
+    text-align: center;
+    height: 4vh;
+    padding-top: 1vh;
+    border-radius: 10px 0 0 10px ;
 }
 #zoo_project>div>p{
     position: absolute;
     right: 10vw;
     top: 115vh;
+    text-align: right;
 }
 #zoo_project>div>a{
     position: absolute;
@@ -69,6 +89,13 @@
     position: absolute;
     top: 130vh;
     right: 10vw;
+    display: flex;
+}
+#zoo_lang>h6{
+    margin-right: 2vw;
+    background: #26AABC;
+    padding: 6%;
+    border-radius: 15px;
 }
 
 #zoo_images>picture:first-child{
@@ -94,7 +121,13 @@
 #connect4>h2{
     position: absolute;
     top: 180vh;
-    left: 2vw;
+    left: 0;
+    background: #B4E5AC;
+    width: 20vw;
+    text-align: center;
+    height: 4vh;
+    padding-top: 1vh;
+    border-radius: 0 10px 10px 0 ;
 }
 #connect4>div>p{
     position: absolute;
@@ -109,7 +142,14 @@
 #connect4_lang{
     position: absolute;
     top: 209vh;
-    left: 10vw;
+    left: 8vw;
+    display: flex;
+}
+#connect4_lang>h6{
+    margin-left: 2vw;
+    background: #26AABC;
+    padding: 6%;
+    border-radius: 15px;
 }
 
 #connect4_images>picture:first-child{
@@ -122,4 +162,87 @@
     bottom: 45vh;
     right: 8vw;
 
+}
+@media all and (max-width: 768px) and (min-width: 425px) {
+    #tea_project>h2, #zoo_project>h2, #connect4>h2{
+        width: 55vw;
+        font-size: 18px;
+        padding-top: 2vh;
+    }
+    #tea_project>div>p{
+        font-size: 12px;
+        left: 12vw;
+    }
+    #tea_lang{
+        top: 50vh;
+        left: 9vw;
+    }
+    #tea_images>picture:first-child{
+        position: absolute;
+        top: 63vh;
+        right: 50vw;
+    }
+    #tea_images>picture:nth-child(2){
+        position: absolute;
+        top: 66vh;
+        right: 6vw;
+    }
+    #tea_images>picture:nth-child(3){
+        position: absolute;
+        top: 80vh;
+        right: 50vw;
+    }
+    #tea_images>picture:last-child{
+        position: absolute;
+        top: 83vh;
+        right: 6vw;
+    }
+    #zoo_project>div>p{
+        right: 12vw;
+        font-size: 12px;
+    }
+    #zoo_lang{
+        top: 125vh;
+        right: 18vw;
+
+    }
+    #zoo_images>picture:first-child{
+        position: absolute;
+        left: 45vw;
+        top: 137vh;
+    }
+    #zoo_images>picture:nth-child(2){
+        position: absolute;
+        left: 6vw;
+        top: 140vh;
+    }
+    #zoo_images>picture:nth-child(3){
+        position: absolute;
+        left: 6vw;
+        top: 156vh;
+    }
+    #zoo_images>picture:last-child{
+        position: absolute;
+        left: 45vw;
+        top: 153vh;
+    }
+    #connect4>div>p{
+        left: 12vw;
+        font-size: 12px;
+    }
+    #connect4_lang{
+        top: 205vh;
+        left: 9vw;
+    }
+    #connect4_images>picture:first-child{
+        position: absolute;
+        bottom: 50vh;
+        left: 10vw;
+    }
+    #connect4_images>picture:last-child{
+        position: absolute;
+        bottom: 45vh;
+        right: 8vw;
+
+    }
 }
