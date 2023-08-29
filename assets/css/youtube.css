@@ -111,7 +111,7 @@
 /*#youtube>div>h5>a{*/
 /*    text-decoration: none;*/
 /*}*/
-@media all and (max-width: 1000px) and (min-width: 375px){
+
     #youtube>h3{
         position: absolute;
         top: 5vh;
@@ -225,4 +225,3 @@
     #youtube>div>h5>a{
         text-decoration: none;
     }
-}
