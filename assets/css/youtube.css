@@ -132,7 +132,7 @@
     #kvArt{
         position: absolute;
         top: 30vh;
-        left: 18vw;
+        left: 22vw;
         background: white;
         border-radius: 15px;
         width: 30vw;
@@ -162,8 +162,8 @@
     }
     #kvTech{
         position: absolute;
-        top: 30vh;
-        left: 60vw;
+        top: 65vh;
+        left: 22vw;
         background: white;
         border-radius: 15px;
         width: 30vw;
@@ -193,8 +193,8 @@
     }
     #whoIs{
         position: absolute;
-        top: 65vh;
-        left: 32vw;
+        top: 95vh;
+        left: 22vw;
         background: white;
         border-radius: 15px;
         width: 30vw;
