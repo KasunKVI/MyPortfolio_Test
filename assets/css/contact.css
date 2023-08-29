@@ -196,7 +196,7 @@
     background-color: #ddd;
     transition-duration: .3s;
 }
-@media all and (max-width: 768px) and (min-width: 425px) {
+
     #contact_instruction{
         top: 20vh;
         left: 20vw;
@@ -242,5 +242,5 @@
         top: 121vh;
         right: 19vw;
     }
-}
+
 

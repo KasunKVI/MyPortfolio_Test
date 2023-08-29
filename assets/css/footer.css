@@ -47,7 +47,7 @@ footer{
 div>h4{
     margin: 0;
 }
-@media all and (max-width: 768px) and (min-width: 425px) {
+
     #developer{
         position: absolute;
         left: 31vw;
@@ -89,4 +89,3 @@ div>h4{
     #socials_footer{
         display: none;
     }
-}

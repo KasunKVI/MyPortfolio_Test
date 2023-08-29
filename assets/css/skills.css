@@ -112,7 +112,7 @@
 /*    top: 80vh;*/
 /*    left: 57vw;*/
 /*}*/
-@media all and (max-width: 768px) and (min-width: 425px){
+
 
     #square_pattern{
         position: absolute;
@@ -152,36 +152,4 @@
         width: 80px;
         transition: 0.5s ease;
     }
-}
-@media all and (min-width: 1400px){
 
-    #skills2{
-        position: absolute;
-        top: 90vh;
-        background:#ECFFDD;
-        width: 100vw;
-        height: 10%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-    #skills2>img{
-        margin: 2vw;
-    }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
-    }
-    #skills>h3{
-        position: absolute;
-        top: 20vh;
-        left: 45vw;
-    }
-    #square_pattern{
-        position: absolute;
-        top: 13vh;
-        left: 25vw;
-    }
-
-}

@@ -14,7 +14,6 @@
 #youtube>div>h5>a{
     text-decoration: none;
 }
-@media all and (max-width: 768px) and (min-width: 425px){
 
     #youtube>h3{
         position: absolute;
@@ -82,93 +81,3 @@
 
 
 
-}
-@media all and (min-width: 1400px){
-
-    #youtube>h3{
-        position: absolute;
-        top: 5vh;
-        left: 2vw;
-    }
-    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
-        position: absolute;
-        left: 1vw;
-        margin: auto;
-        top: 30%;
-
-    }
-    #whoIs{
-        position: absolute;
-        top: 65vh;
-        left: 32vw;
-        width: 30vw;
-        height: 18vh;
-    }
-    #whoIs>h2{
-        position: absolute;
-        top: 0;
-        left: 20%;
-        margin-left: 2vw;
-    }
-    #whoIs>p{
-        position: absolute;
-        top: 4vh;
-        left: 20%;
-    }
-    #whoIs>h5{
-        position: absolute;
-        bottom: 0;
-        left: 20%;
-    }
-    .tangle_pattern{
-        position: absolute;
-        top: 15vh;
-        left: 10vw;
-    }
-    #kvArt{
-        position: absolute;
-        top: 30vh;
-        left: 18vw;
-        width: 30vw;
-        height: 18vh;
-    }
-
-    #kvArt>h2{
-        position: absolute;
-        top: 0;
-        left: 20%;
-    }
-    #kvArt>p{
-        position: absolute;
-        top: 4vh;
-        left: 20%;
-    }
-    #kvArt>h5{
-        position: absolute;
-        bottom: 0;
-        left: 20%;
-    }
-    #kvTech{
-        position: absolute;
-        top: 30vh;
-        left: 60vw;
-        width: 30vw;
-        height: 18vh;
-    }
-    #kvTech>h2{
-        position: absolute;
-        top: 0;
-        left: 20%;
-    }
-    #kvTech>p{
-        position: absolute;
-        top: 4vh;
-        left: 20%;
-    }
-    #kvTech>h5{
-        position: absolute;
-        bottom: 0;
-        left: 20%;
-    }
-
-}

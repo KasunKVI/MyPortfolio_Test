@@ -73,7 +73,7 @@
     right: 10vw;
     top: 7vh;
 }
-@media all and (max-width: 768px) and (min-width: 425px) {
+
     #resume>h3{
         position: absolute;
         top: 10vh;
@@ -130,4 +130,3 @@
         right: 35vw;
         top: 0;
     }
-}
