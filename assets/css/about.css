@@ -5,6 +5,7 @@
 }
 #about_me_side_bar {
     background: #B9BC26;
+    position: absolute;
 }
 #about>h4{
     font-family: 'Arya', sans-serif;
@@ -38,6 +39,7 @@
     left: 0;
 }
 #download_btn {
+    position: absolute;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -155,25 +157,158 @@
     background-color: #fff;
 }
 
+.socials>a{
+    display: block;
+    padding: 2vh;
+}
+#about>h4{
+    position: absolute;
+    top: 15vh;
+    left: 3vw;
+}
+#about_me{
+    position: absolute;
+    top: 18vh;
+    left: 3vw;
+}
+#my_second_image{
+    position: relative;
+    z-index: 1;
+}
+#dot_pattern{
+    position: absolute;
+    z-index: 0;
+}
+@media all and (min-width: 1440px){
+    #about{
 
-
+        padding-bottom: 160vh;
+    }
     #about>h4{
-        position: absolute;
         top: 5vh;
-        left: 2vw;
-
+        font-size: 25px;
+    }
+    #about>div>h1{
+        font-size: 50px;
+    }
+    #about>div>h3{
+        font-size: 40px;
     }
     #about_me{
-        position: absolute;
         top: 8vh;
-        left: 2vw;
     }
 
     #my_second_image{
-        position: relative;
-        top: 65vh;
-        left: 10vw;
-        z-index: 1;
+        top: 60vh;
+        left: 7vw;
+    }
+    #my_third_image{
+        z-index: 2;
+        padding-right: 1vw;
+    }
+    #dot_pattern{
+        top: 53vh;
+        left: 35vw;
+    }
+    #photo_with_socials{
+        position: absolute;
+        top: 96vh;
+        left: 30vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #download_btn{
+        top: 170vh;
+        left: 50vw;
+    }
+    #about_explain{
+        position: absolute;
+        top: 190vh;
+        left: 25vw;
+    }
+    #about_me_side_bar{
+        position: absolute;
+        width: 1vw;
+        height: 30vh;
+        top: 182vh;
+        left: 22vw;
+    }
+
+}
+@media all and (max-width: 1440px){
+
+    #about>h4{
+        top: 5vh;
+        font-size: 23px;
+    }
+    #about>div>h1{
+        font-size: 35px;
+    }
+    #about>div>h3{
+        font-size: 26px;
+    }
+    #about_me{
+        top: 8vh;
+    }
+
+    #my_second_image{
+        top: 60vh;
+        left: 7vw;
+    }
+    #my_third_image{
+        z-index: 2;
+        padding-right: 1vw;
+
+    }
+    #dot_pattern{
+        top: 53vh;
+        left: 42vw;
+    }
+
+    #photo_with_socials{
+        position: absolute;
+        top: 105vh;
+        left: 38vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    #download_btn{
+        top: 158vh;
+        left: 60vw;
+    }
+    #about_explain{
+        position: absolute;
+        top: 170vh;
+        left: 20vw;
+    }
+    #about_me_side_bar{
+        width: 2vw;
+        height: 20vh;
+        top: 172vh;
+        left: 16vw;
+    }
+
+}
+@media all and (max-width: 1024px){
+
+    #about>h4{
+        top: 5vh;
+        font-size: 20px;
+    }
+    #about_me{
+        top: 8vh;
+    }
+    #about>div>h1{
+        font-size: 33px;
+    }
+    #about>div>h3{
+        font-size: 25px;
+    }
+
+    #my_second_image{
+        top: 60vh;
+        left: 15vw;
 
     }
     #my_third_image{
@@ -181,43 +316,237 @@
 
     }
     #dot_pattern{
-        position: absolute;
-        top: 60vh;
-        left: 43vw;
-        z-index: 0;
+        top: 53vh;
+        left: 60vw;
     }
 
     .socials>a{
-        display: block;
-        padding: 2vw;
         position: relative;
-        left: 82vw;
-        top: 28vh;
+        left: 50vw;
+        top: 0;
+        overflow: hidden;
+        width: 50px;
+    }
 
+    #download_btn{
+        top: 175vh;
+        left: 70vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 185vh;
+        left: 15vw;
+        font-size: 13px;
+    }
+    #about_me_side_bar{
+        width: 2vw;
+        height: 20vh;
+        top: 185vh;
+        left: 11vw;
+    }
+}
+@media all and (max-width: 768px){
+
+    #about>h4{
+        font-size: 21px;
+    }
+    #about_me{
+        top:8vh;
+    }
+    #about>div>h1{
+        font-size: 32px;
+    }
+    #about>div>h3{
+        font-size: 25px;
+    }
+    #my_second_image{
+        top: 65vh;
+        left: 10vw;
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        top: 60vh;
+        left: 60vw;
+    }
+
+    .socials>a{
+        position: relative;
+        left: 43vw;
+        top: -20vh;
     }
     .socials{
         width: 50px;
     }
     #download_btn{
-        position: absolute;
-        top: 125vh;
-        left: 40vw;
-
+        top: 135vh;
+        left: 50vw;
     }
     #about_explain{
         position: absolute;
-        top: 140vh;
-        left: 18vw;
-        font-size: 10px;
-        width: 300px;
+        top: 150vh;
+        left: 12vw;
+        font-size: 13px;
+        width: 80%;
+
     }
     #about_me_side_bar{
         position: absolute;
         width: 2vw;
-        height: 30vh;
-        top: 140vh;
-        left: 12vw;
+        height: 25vh;
+        top: 150vh;
+        left: 7vw;
+    }
+}
+@media all and (max-width: 425px){
+    #about>h4{
+        font-size: 20px;
+    }
+    #about>div>h1{
+        font-size: 27px;
+    }
+    #about>div>h3{
+        font-size: 18px;
+    }
+    #my_second_image{
+        top: 67vh;
+        left: 10vw;
+    }
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        top: 64vh;
+        left: 47vw;
     }
 
+    .socials>a{
+        position: relative;
+        left: 37vw;
+        top: -26vh;
+        width: 50px;
 
+    }
+    #download_btn{
+        top: 110vh;
+        left: 25vw;
+    }
+    #about_explain{
+        position: absolute;
+        top: 130vh;
+        left: 12vw;
+        font-size: 12px;
+    }
+    #about_me_side_bar{
+        position: absolute;
+        width: 2vw;
+        height: 40vh;
+        top: 128vh;
+        left: 7vw;
+    }
 
+}
+
+@media all and (max-width: 375px) {
+    #about>h4{
+        font-size: 18px;
+    }
+    #about>div>h1{
+        font-size: 30px;
+    }
+    #about>div>h3{
+        font-size: 20px;
+    }
+    #my_second_image{
+        top: 67vh;
+        left: 10vw;
+    }
+
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        top: 64vh;
+        left: 53vw;
+    }
+
+    .socials>a{
+        position: relative;
+        left: 38vw;
+        top: -23vh;
+        width: 50px;
+
+    }
+    #download_btn{
+        top: 120vh;
+        left: 20vw;
+    }
+    #about_explain{
+        position: absolute;
+        top: 145vh;
+        left: 14vw;
+        font-size: 11px;
+    }
+    #about_me_side_bar{
+
+        width: 2vw;
+        height: 42vh;
+        top: 144vh;
+        left: 7vw;
+    }
+}
+@media all and (max-width: 320px){
+    #about>h4{
+        font-size: 15px;
+
+    }
+    #about>div>h1{
+        font-size: 20px;
+    }
+    #about>div>h3{
+        font-size: 15px;
+    }
+    #my_second_image{
+        top: 67vh;
+        left: 5vw;
+    }
+
+    #my_third_image{
+        display: none;
+
+    }
+    #dot_pattern{
+        top: 64vh;
+        left: 52vw;
+    }
+
+    .socials>a{
+        position: relative;
+        left: 40vw;
+        top: -23vh;
+        width: 50px;
+
+    }
+    #download_btn{
+        top: 130vh;
+        left: 15vw;
+
+    }
+    #about_explain{
+        position: absolute;
+        top: 155vh;
+        left: 13vw;
+        font-size: 8px;
+    }
+    #about_me_side_bar{
+        width: 2vw;
+        height: 40vh;
+        top: 150vh;
+        left: 7vw;
+    }
+}

@@ -1,3 +1,4 @@
+
 #home{
     position: relative;
     background: #F3FFF1;
@@ -61,14 +62,57 @@
 #contact_btn {
     font-size: 17px;
     background: transparent;
-    border: none;
     padding: 1em 1.5em;
-    color: #ffedd3;
+    color: burlywood;
     text-transform: uppercase;
     position: relative;
     transition: .5s ease;
+    border: 1px solid sandybrown ;
+    border-radius: 15px;
 }
-@media all and (max-width: 1400px) and (min-width: 1024px){
+
+
+@media all and (min-width: 1440px){
+
+    #arrow_1 {
+        position: absolute;
+        top: 40vh;
+        left: 5vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 43vh;
+        left: 8vw;
+    }
+
+    #my_main_image {
+        position: absolute;
+        right: 1vw;
+        top: 8vh;
+    }
+
+    #arrow_2 {
+        position: absolute;
+        right: 25vw;
+        top: 15vh;
+    }
+
+    #contact_btn {
+        font-size: 17px;
+
+    }
+    #home>div>h1{
+        font-size: 43px;
+    }
+    #home>div>div>h3{
+        font-size: 40px;
+    }
+    #home>div>h2{
+        font-size: 42px;
+    }
+
+}
+@media all and (max-width: 1440px){
 
     #arrow_1 {
         position: absolute;
@@ -85,13 +129,13 @@
     #my_main_image {
         position: relative;
         left: 50vw;
-        top: 0;
+        top: 10vh;
     }
 
     #arrow_2 {
         position: absolute;
-        right: 40vw;
-        top: 10vh;
+        right: 30vw;
+        top: 13vh;
     }
 
     .seperated_line {
@@ -109,110 +153,70 @@
     }
 
 }
-
-@media all and (min-width: 1400px){
+@media all and (max-width: 1024px){
 
     #arrow_1 {
         position: absolute;
-        top: 40vh;
+        top: 60vh;
         left: 5vw;
     }
+
     .about_brief {
         position: absolute;
-        top: 43vh;
+        top: 63vh;
         left: 8vw;
     }
 
     #my_main_image {
-        position: absolute;
-        right: 0;
-        top: 0;
+        position: relative;
+        left: 52vw;
+        top: 18vh;
     }
 
     #arrow_2 {
         position: absolute;
-        right: 30vw;
-        top: 10vh;
+        right: 28vw;
+        top: 18vh;
     }
 
     .seperated_line {
         position: absolute;
         top: 90vh;
     }
+    #home>div>h1{
+        font-size: 30px;
+    }
+    #home>div>div>h3{
+        font-size: 27px;
+    }
+    #home>div>h2{
+        font-size: 28px;
+    }
+}
+@media all and (max-width: 768px){
+    #arrow_1 {
+        position: absolute;
+        top: 20vh;
+        left: 20vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 25vh;
+        left: 25vw;
+    }
 
     #contact_btn {
-        font-size: 17px;
-        background: transparent;
-        border: none;
-        padding: 1em 1.5em;
-        color: #ffedd3;
-        text-transform: uppercase;
-        position: relative;
-        transition: .5s ease;
-    }
-    #home>div>h1{
-        font-size: 43px;
-    }
-    #home>div>div>h3{
-        font-size: 40px;
-    }
-    #home>div>h2{
-        font-size: 42px;
-    }
-
-}
-@media all and (max-width: 1024px) and (min-width: 768px){
-
-    #arrow_1 {
-        position: absolute;
-        top: 14vh;
-        left: 15vw;
-    }
-    .about_brief {
-        position: absolute;
-        top: 18vh;
-        left: 19vw;
+        font-size: 13px;
     }
     #my_main_image {
         position: absolute;
-        left: 18vw;
+        left: 12vw;
         top: 80vh;
     }
     #arrow_2 {
         position: absolute;
-        left: 30vw;
+        left: 32vw;
         top: 80vh;
-    }
-    #home>div>h1{
-        font-size: 35px;
-    }
-    #home>div>div>h3{
-        font-size: 32px;
-    }
-    #home>div>h2{
-        font-size: 33px;
-    }
-}
-@media all and (max-width: 768px) and (min-width: 425px){
-    #arrow_1 {
-        position: absolute;
-        top: 13vh;
-        left: 8vw;
-    }
-    .about_brief {
-        position: absolute;
-        top: 18vh;
-        left: 14vw;
-    }
-    #my_main_image {
-        position: absolute;
-        left: 9vw;
-        top: 70vh;
-    }
-    #arrow_2 {
-        position: absolute;
-        left: 17vw;
-        top: 70vh;
     }
     #home>div>h1{
         font-size: 25px;
@@ -224,26 +228,29 @@
         font-size: 24px;
     }
 }
-@media all and (max-width: 425px) and (min-width: 375px){
+@media all and (max-width: 425px){
     #arrow_1 {
         position: absolute;
-        top: 14vh;
-        left: 1vw;
+        top: 21vh;
+        left: 3vw;
     }
     .about_brief {
         position: absolute;
-        top: 18vh;
-        left: 8vw;
+        top: 25vh;
+        left: 14vw;
     }
     #my_main_image {
         position: absolute;
-        left: 2vw;
+        left: 4vw;
         top: 85vh;
     }
     #arrow_2 {
         position: absolute;
-        left: 18vw;
+        left: 20vw;
         top: 85vh;
+    }
+    #contact_btn {
+        font-size: 11px;
     }
     #home>div>h1{
         font-size: 23px;
@@ -255,26 +262,29 @@
         font-size: 21px;
     }
 }
-@media all and (max-width: 375px) and (min-width: 320px){
+@media all and (max-width: 375px){
     #arrow_1 {
         position: absolute;
         top: 14vh;
-        left: 1vw;
+        left: 4vw;
     }
     .about_brief {
         position: absolute;
         top: 18vh;
-        left: 6vw;
+        left: 15vw;
     }
     #my_main_image {
         position: absolute;
-        right: 2px;
+        right: 4px;
         top: 70vh;
     }
     #arrow_2 {
         position: absolute;
-        left: 18vw;
+        left: 20vw;
         top: 70vh;
+    }
+    #contact_btn {
+        font-size: 10px;
     }
     #home>div>h1{
         font-size: 20px;
@@ -284,5 +294,40 @@
     }
     #home>div>h2{
         font-size: 19px;
+    }
+}
+@media all and (max-width: 320px){
+    #arrow_1 {
+        position: absolute;
+        top: 14vh;
+        left: 1vw;
+    }
+    .about_brief {
+        position: absolute;
+        top: 20vh;
+        left: 11vw;
+    }
+    #my_main_image {
+        position: absolute;
+        left: -6vw;
+        top: 70vh;
+        overflow: hidden;
+    }
+    #arrow_2 {
+        position: absolute;
+        left: 18vw;
+        top: 70vh;
+    }
+    #contact_btn {
+        font-size: 9px;
+    }
+    #home>div>h1{
+        font-size: 18px;
+    }
+    #home>div>div>h3{
+        font-size: 16px;
+    }
+    #home>div>h2{
+        font-size: 17px;
     }
 }

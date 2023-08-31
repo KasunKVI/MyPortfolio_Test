@@ -13,12 +13,292 @@
 
 #youtube>div>h5>a{
     text-decoration: none;
+    color: #EF9B1E;
 }
+#youtube>h3{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #302929;
+}
+#whoIs>h2,#kvTech>h2,#kvArt>h2{
+    position: absolute;
+    font-family: 'Glory', sans-serif;
+    color: #0C0C0B;
+}
+#kvArt>p, #kvTech>p, #whoIs>p{
+    position: absolute;
+    font-family: 'Abel', sans-serif;
+    color: #477045;
+    font-weight: bold;
+}
+#kvArt>h5, #kvTech>h5, #whoIs>h5 {
+    position: absolute;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
+}
+@media all and (min-width: 1440px){
 
     #youtube>h3{
+        top: 7vh;
+        left: 44vw;
+        font-size: 22px;
+    }
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
         position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 30%;
+
+    }
+    #whoIs{
+        position: absolute;
+        top: 60vh;
+        left: 36vw;
+        width: 30vw;
+        height: 18vh;
+    }
+    #whoIs>h2, #kvArt>h2, #kvTech>h2{
+        top: 0;
+        left: 25%;
+        font-size: 24px;
+    }
+    #whoIs>p,#kvArt>p{
+        top: 4vh;
+        left: 25%;
+        font-size: 18px;
+    }
+    #kvTech>p{
+        top: 5vh;
+        left: 25%;
+        font-size: 18px;
+    }
+    #whoIs>h5, #kvTech>h5, #kvArt>h5{
+        bottom: 0;
+        left: 25%;
+        font-size: 17px;
+        padding-top: 1px;
+    }
+    .tangle_pattern{
+        position: absolute;
+        top: 10vh;
+        left: 17vw;
+    }
+    #kvArt{
+        position: absolute;
+        top: 28vh;
+        left: 12vw;
+        width: 30vw;
+        height: 18vh;
+    }
+    #kvTech{
+        position: absolute;
+        top: 28vh;
+        left: 60vw;
+        width: 30vw;
+        height: 18vh;
+    }
+
+
+}
+@media all and (max-width: 1440px){
+
+    #youtube>h3{
+        top: 5vh;
+        left: 44vw;
+        font-size: 22px;
+    }
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
+        position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 30%;
+
+    }
+    #whoIs{
+        position: absolute;
+        top: 60vh;
+        left: 34vw;
+        width: 35vw;
+        height: 22vh;
+    }
+    #whoIs>h2, #kvArt>h2, #kvTech>h2{
+        top: 0;
+        left: 25%;
+        font-size: 24px;
+    }
+    #whoIs>p, #kvArt>p{
+        top: 5vh;
+        left: 25%;
+        font-size: 18px;
+    }
+    #whoIs>h5, #kvTech>h5, #kvArt>h5{
+        bottom: 0;
+        left: 25%;
+        font-size: 18px;
+    }
+    .tangle_pattern{
+        position: absolute;
+        top: 10vh;
+        left: 10vw;
+    }
+    #kvArt{
+        position: absolute;
+        top: 30vh;
+        left: 10vw;
+        width: 35vw;
+        height: 22vh;
+    }
+
+    #kvTech{
+        position: absolute;
+        top: 30vh;
+        left: 57vw;
+        width: 35vw;
+        height: 22vh;
+    }
+    #kvTech>p{
+        top: 6vh;
+        left: 25%;
+        font-size: 18px;
+    }
+}
+@media all and  (max-width: 1024px){
+    #youtube>h3{
+        top: 5vh;
+        left: 42vw;
+        font-size: 20px;
+    }
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
+        position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 30%;
+
+    }
+    #whoIs{
+        position: absolute;
+        top: 60vh;
+        left: 31vw;
+        width: 37vw;
+        height: 27vh;
+    }
+    #kvArt>h2,#kvTech>h2, #whoIs>h2{
+        top: 0;
+        left: 29%;
+        font-size: 22px;
+    }
+
+    #whoIs>p,#kvArt>p{
+        top: 5vh;
+        left: 29%;
+        font-size: 17px;
+    }
+    #whoIs>h5, #kvArt>h5, #kvTech>h5{
+        bottom: 0;
+        left: 29%;
+        font-size: 17px;
+    }
+    .tangle_pattern{
+        position: absolute;
+        top: 10vh;
+        left: -7vw;
+    }
+    #kvArt{
+        position: absolute;
+        top: 30vh;
+        left: 5vw;
+        width: 37vw;
+        height: 27vh;
+    }
+
+    #kvTech{
+        position: absolute;
+        top: 30vh;
+        left: 58vw;
+        width: 37vw;
+        height: 27vh;
+    }
+
+    #kvTech>p{
+        top: 6vh;
+        left: 29%;
+        font-size: 17px;
+    }
+
+}
+@media all and (max-width: 768px){
+
+    #youtube>h3{
+        top: 10vh;
+        left: 40vw;
+        font-size: 18px;
+    }
+
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
+        position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 35%;
+    }
+    #whoIs{
+        position: absolute;
+        top: 90vh;
+        left: 20vw;
+        width: 55vw;
+        height: 18vh;
+    }
+
+    .tangle_pattern{
+        position: absolute;
+        top: 5vh;
+        left: -7vw;
+    }
+    #kvArt{
+        position: absolute;
+        top: 40vh;
+        left: 20vw;
+        width: 55vw;
+        height: 18vh;
+
+    }
+
+    #kvArt>h2,#kvTech>h2, #whoIs>h2{
+        top: 0;
+        left: 25%;
+        font-size: 20px;
+    }
+    #kvArt>p, #kvTech>p{
+        top: 5vh;
+        left: 25%;
+        font-size: 16px;
+    }
+
+    #whoIs>p{
+        top: 4vh;
+        left: 25%;
+        font-size: 16px;
+    }
+    #kvArt>h5, #kvTech>h5, #whoIs>h5{
+        bottom: 0;
+        left: 25%;
+        font-size: 16px;
+    }
+
+    #kvTech{
+        position: absolute;
+        top: 65vh;
+        left: 20vw;
+        width: 55vw;
+        height: 18vh;
+    }
+
+}
+@media all and (max-width: 425px){
+
+    #youtube>h3{
         top: 8vh;
-        left: 25vw;
+        left: 27vw;
+        font-size: 17px;
     }
 
     #whoIs>picture, #kvArt>picture,  #kvTech>picture{
@@ -32,9 +312,9 @@
     #whoIs{
         position: absolute;
         top: 90vh;
-        left: 20vw;
-        width: 60vw;
-        height: 18vh;
+        left: 18vw;
+        width: 65vw;
+        height: 17vh;
     }
 
     .tangle_pattern{
@@ -45,26 +325,23 @@
     #kvArt{
         position: absolute;
         top: 40vh;
-        left: 20vw;
-        width: 60vw;
-        height: 18vh;
+        left: 18vw;
+        width: 65vw;
+        height: 17vh;
 
     }
 
     #kvArt>h2,#kvTech>h2, #whoIs>h2{
-        position: absolute;
         top: 0;
         left: 20%;
-        font-size: 18px;
+        font-size: 20px;
     }
     #kvArt>p, #kvTech>p, #whoIs>p{
-        position: absolute;
         top: 4vh;
         left: 20%;
-        font-size: 10px;
+        font-size: 12px;
     }
     #kvArt>h5, #kvTech>h5, #whoIs>h5{
-        position: absolute;
         bottom: 0;
         left: 20%;
         font-size: 13px;
@@ -73,11 +350,134 @@
     #kvTech{
         position: absolute;
         top: 65vh;
-        left: 20vw;
-        width: 60vw;
-        height: 18vh;
+        left: 18vw;
+        width: 65vw;
+        height: 17vh;
     }
 
+}
+@media all and (max-width: 375px){
+
+    #youtube>h3{
+        top: 8vh;
+        left: 25vw;
+        font-size: 16px;
+    }
+
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
+        position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 40%;
 
 
+    }
+    #whoIs{
+        position: absolute;
+        top: 90vh;
+        left: 17vw;
+        width: 65vw;
+        height: 22vh;
+    }
 
+    .tangle_pattern{
+        position: absolute;
+        top: 5vh;
+        left: -4vw;
+    }
+    #kvArt{
+        position: absolute;
+        top: 40vh;
+        left: 17vw;
+        width: 65vw;
+        height: 22vh;
+
+    }
+
+    #kvArt>h2,#kvTech>h2, #whoIs>h2{
+        top: 0;
+        left: 20%;
+        font-size: 18px;
+    }
+    #kvArt>p, #kvTech>p, #whoIs>p{
+        top: 6vh;
+        left: 20%;
+        font-size: 11px;
+    }
+    #kvArt>h5, #kvTech>h5, #whoIs>h5{
+        bottom: 0;
+        left: 20%;
+        font-size: 13px;
+    }
+
+    #kvTech{
+        position: absolute;
+        top: 65vh;
+        left: 17vw;
+        width: 65vw;
+        height: 22vh;
+    }
+
+}
+@media all and (max-width: 320px){
+    #youtube>h3{
+        top: 8vh;
+        left: 20vw;
+        font-size: 15px;
+    }
+
+    #whoIs>picture, #kvArt>picture,  #kvTech>picture{
+        position: absolute;
+        left: 1vw;
+        margin: auto;
+        top: 40%;
+
+
+    }
+    #whoIs{
+        position: absolute;
+        top: 90vh;
+        left: 18vw;
+        width: 65vw;
+        height: 25vh;
+    }
+
+    .tangle_pattern{
+        position: absolute;
+        top: 5vh;
+        left: -18vw;
+    }
+    #kvArt{
+        position: absolute;
+        top: 30vh;
+        left: 18vw;
+        width: 65vw;
+        height: 25vh;
+
+    }
+
+    #kvArt>h2,#kvTech>h2, #whoIs>h2{
+        top: 0;
+        left: 20%;
+        font-size: 18px;
+    }
+    #kvArt>p, #kvTech>p, #whoIs>p{
+        top: 7vh;
+        left: 20%;
+        font-size: 10px;
+    }
+    #kvArt>h5, #kvTech>h5, #whoIs>h5{
+        bottom: 0;
+        left: 20%;
+        font-size: 13px;
+    }
+
+    #kvTech{
+        position: absolute;
+        top: 60vh;
+        left: 18vw;
+        width: 65vw;
+        height: 25vh;
+    }
+
+}

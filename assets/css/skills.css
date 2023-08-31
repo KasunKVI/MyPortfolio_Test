@@ -5,18 +5,6 @@
     height: 100vh;
     padding-bottom: 20vh;
 }
-
-/*#blue_dot{*/
-/*    position: absolute;*/
-/*    left: 48vw;*/
-/*    top: 28vh;*/
-/*}*/
-/*#languages{*/
-/*    position: absolute;*/
-/*    left: 26.5vw;*/
-/*    top: 33vh;*/
-/*}*/
-
 #certificate_lang>div:nth-child(2){
     top: 35vh;
     left: 30vw;
@@ -26,11 +14,6 @@
     left: 50vw;
 }
 .card1 {
-    position: absolute;
-    top: 35vh;
-    left: 10vw;
-    width: 300px;
-    height: 200px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -88,41 +71,136 @@
 }
 .card1>div>a{
     text-decoration: none;
-    color: darkolivegreen;
+    color: dimgray;
     font-size: 12px;
 }
+#skills2>img:hover{
+    width: 80px;
+    transition: 0.5s ease;
+}
+#skills2{
+    background:#ECFFDD;
+    position: absolute;
+}
+#skills>h3{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #302929;
+}
+@media all and (min-width: 1440px){
 
-/*#skills1>img:first-child{*/
-/*    position: absolute;*/
-/*    top: 60vh;*/
-/*    left: 25.5vw;*/
-/*}*/
-/*#skills1>img:nth-child(2){*/
-/*    position: absolute;*/
-/*    top: 60vh;*/
-/*    left: 69.8vw;*/
-/*}*/
-/*#skills1>img:nth-child(3){*/
-/*    position: absolute;*/
-/*    top: 80vh;*/
-/*    left: 40vw;*/
-/*}*/
-/*#skills1>img:last-child{*/
-/*    position: absolute;*/
-/*    top: 80vh;*/
-/*    left: 57vw;*/
-/*}*/
+    #skills2{
+        top: 90vh;
+        width: 100vw;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
+    }
+    #skills2>img{
+        margin: 2vw;
+    }
+    #skills2>img:hover{
+        width: 80px;
+        transition: 0.5s ease;
+    }
+    #skills>h3{
+        top: 18vh;
+        left: 45vw;
+        font-size: 22px;
+    }
+    #square_pattern{
+        position: absolute;
+        top: 13vh;
+        left: 25vw;
+    }
+    .card1 {
+        position: absolute;
+        top: 39vh;
+        left: 10vw;
+        width: 300px;
+        height: 200px;
+    }
+
+}
+@media all and (max-width: 1440px){
+
+    #skills2{
+        top: 90vh;
+        width: 100vw;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #skills2>img{
+        margin: 2vw;
+    }
+
+    #skills>h3{
+        top: 18vh;
+        left: 45vw;
+        font-size: 22px;
+    }
+    #square_pattern{
+        position: absolute;
+        top: 13vh;
+        left: 20vw;
+    }
+    .card1 {
+        position: absolute;
+        top: 39vh;
+        left: 10vw;
+        width: 300px;
+        height: 200px;
+    }
+
+}
+@media all and (max-width: 1024px){
+    #skills2{
+        top: 90vh;
+        width: 100vw;
+        height: 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #skills2>img{
+        margin: 1vw;
+    }
+    #skills>h3{
+        top: 18vh;
+        left: 42vw;
+        font-size: 20px;
+    }
+    #square_pattern{
+        position: absolute;
+        top: 20vh;
+        left: 4vw;
+    }
+    .card1 {
+        position: absolute;
+        top: 39vh;
+        left: 10vw;
+        width: 300px;
+        height: 200px;
+    }
+
+
+}
+@media all and (max-width: 768px){
 
     #square_pattern{
         position: absolute;
         top: 9vh;
-        left: 8vw;
+        left: 3vw;
     }
     #skills>h3{
-        position: absolute;
         top: 10vh;
-        left: 30vw;
+        left: 35vw;
+        font-size: 18px;
     }
     .card1 {
         position: absolute;
@@ -132,13 +210,50 @@
         height: 180px;
     }
     #skills2{
-        position: absolute;
         top: 90vh;
-        background:#ECFFDD;
+        display: block;
+        height: 550px;
+        margin: 20px;
+        width: 400px;
+        border-radius: 50px;
+        left: 20vw;
+    }
+    #skills{
+        padding-bottom: 100vh;
+    }
+    #skills2>img{
+        padding-top: 95px;
+        margin: 10px;
+    }
+
+}
+@media all and (max-width: 425px){
+
+    #square_pattern{
+        position: absolute;
+        top: 10vh;
+        left: 6vw;
+    }
+    #skills>h3{
+        top: 10vh;
+        left: 31vw;
+        font-size: 17px;
+    }
+    .card1 {
+        position: absolute;
+        top: 35vh;
+        left: 19vw;
+        width: 270px;
+        height: 180px;
+    }
+    #skills2{
+        top: 100vh;
         display: block;
         height: 600px;
-        margin: 50px;
-        border-radius: 20px;
+        margin: 10px;
+        border-radius: 50px;
+        width: 320px;
+        left: 45px;
 
     }
     #skills{
@@ -148,8 +263,81 @@
         padding-top: 95px;
         margin: 10px;
     }
-    #skills2>img:hover{
-        width: 80px;
-        transition: 0.5s ease;
+
+}
+@media all and (max-width: 375px){
+
+    #square_pattern{
+        position: absolute;
+        top: 9vh;
+        left: -2vw;
+    }
+    #skills>h3{
+        top: 10vh;
+        left: 30vw;
+        font-size: 16px;
+    }
+    .card1 {
+        position: absolute;
+        top: 35vh;
+        left: 15vw;
+        width: 270px;
+        height: 180px;
+    }
+    #skills2{
+        top: 90vh;
+        display: block;
+        height: 600px;
+        margin: 10px;
+        border-radius: 50px;
+        left: 15px;
+        width: 330px;
+    }
+    #skills{
+        padding-bottom: 100vh;
+    }
+    #skills2>img{
+        padding-top: 95px;
+        margin: 10px;
     }
 
+}
+@media all and (max-width: 320px){
+
+    #square_pattern{
+        position: absolute;
+        top: 9vh;
+        left: -18vw;
+    }
+    #skills>h3{
+        top: 10vh;
+        left: 27vw;
+        font-size: 15px;
+    }
+    .card1 {
+        position: absolute;
+        top: 35vh;
+        left: 8vw;
+        width: 260px;
+        height: 175px;
+    }
+    #skills2{
+        top: 90vh;
+        display: block;
+        height: 700px;
+        margin: 50px;
+        border-radius: 50px;
+        width: 250px;
+        left: -15px;
+    }
+    #skills{
+        padding-bottom: 100vh;
+    }
+    #skills2>img{
+        padding-top: 70px;
+        margin: 10px;
+    }
+    #skills{
+        padding-bottom: 150vh;
+    }
+}
